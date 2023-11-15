@@ -1,3 +1,10 @@
+/*
+    project:    test_repo
+    file:       main.cpp
+    author:     Evgeny Murashov
+    version:    v0.0
+*/
+
 #include <iostream>
 #include <string>
 #include <stack>

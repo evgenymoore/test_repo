@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <stack>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -21,6 +23,8 @@ public:
         }
         return s;
     }
+
+    bool canMakeArithmeticProgression(vector<int>& arr) {}
 };
 
 int main() {

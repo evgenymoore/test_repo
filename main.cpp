@@ -2,7 +2,7 @@
     project:    test_repo
     file:       main.cpp
     author:     Evgeny Murashov
-    version:    v0.0
+    version:    v0.1
 */
 
 #include <iostream>

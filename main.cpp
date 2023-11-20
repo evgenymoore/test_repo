@@ -17,19 +17,12 @@ using namespace std;
 class Solution {
 public:
     string removeDuplicates(string s) {
-        // brute force
-        for (auto it1 = s.begin(); it1 != s.end(); ) {
-            auto it2 = it1 + 1;
-            if (*it1 == *it2) {
-                s.erase(it2);
-                s.erase(it1);
-                it1 = s.begin();
-            }
-            else {
-                ++it1;
-            }
+        string result = "";
+        for (const char c : s) {
+            (result.size() && c == result.back()) ? result.pop_back() : result.push_back(c);
         }
-        return s;
+
+        return result;
     }
 
     bool canMakeArithmeticProgression(vector<int>& arr) {

@@ -2,7 +2,7 @@
     project:    test_repo
     file:       main.cpp
     author:     Evgeny Murashov
-    version:    v0.1
+    version:    v0.2
 */
 
 #include <iostream>
@@ -17,7 +17,6 @@ using namespace std;
 class Solution {
 public:
     string removeDuplicates(string s) {
-        // brute force
         for (auto it1 = s.begin(); it1 != s.end(); ) {
             auto it2 = it1 + 1;
             if (*it1 == *it2) {
